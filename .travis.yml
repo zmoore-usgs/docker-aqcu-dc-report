@@ -27,7 +27,6 @@ before_install:
   - sudo mv clair-scanner /usr/local/bin
   - git clone https://github.com/docker/docker-bench-security.git
 
-
 install:
   - docker-compose build
 
