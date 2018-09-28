@@ -1,8 +1,8 @@
-FROM cidasdpdasartip.cr.usgs.gov:8447/wma/wma-spring-boot-base:java8-0.0.2
+FROM cidasdpdasartip.cr.usgs.gov:8447/wma/wma-spring-boot-base:latest
 
 LABEL maintainer="gs-w_eto_eb_federal_employees@usgs.gov"
 
-ENV artifact_version=0.0.1
+ENV artifact_version=0.0.2-SNAPSHOT
 ENV serverPort=7504
 ENV javaToRServiceEndpoint=https://reporting-services.nwis.usgs.gov:7500/aqcu-java-to-r/
 ENV aqcuReportsWebserviceUrl=http://reporting.nwis.usgs.gov/aqcu/timeseries-ws/
