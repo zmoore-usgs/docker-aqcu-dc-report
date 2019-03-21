@@ -1,4 +1,4 @@
-FROM usgswma/wma-spring-boot-base:8-jre-slim
+FROM usgswma/wma-spring-boot-base:8-jre-slim-0.0.4
 
 LABEL maintainer="gs-w_eto_eb_federal_employees@usgs.gov"
 
